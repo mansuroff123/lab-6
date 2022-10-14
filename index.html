@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c91c2830c.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+
+        .first_page {
+            height: 100vh;
+            background-color: coral;
+        }
+
+        .second_page {
+            height: 100vh;
+            background-color: greenyellow;
+        }
+
+        .content {
+            width: 100%;
+            /* height: 500px; */
+        }
+
+        .my-btn {
+            height: 40px;
+        }
+
+        .my-container {
+            margin: 0 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: greenyellow;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-size: 50px;
+        }
+
+        /* Change the link color on hover */
+        li a:hover {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first_page">
+        <div class="my-container">
+            <div class="row">
+                <div class="col-1 mt-3">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-bars"></i> Menu
+                    </button>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="second_page">
+                                    <div class="my-container">
+                                        <div class="row">
+                                            <div class="col-1 mt-3">
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">
+                                                    <i class="fa-solid fa-bars"></i> Menu
+                                                </button>
+                                            </div>
+                                            <div class="col-10 mt-3">
+                                                <div class="content px-5 py-4">
+                                                    <ul class="text-center">
+                                                        <li><a href="#home">Home</a></li>
+                                                        <li><a href="#news">News</a></li>
+                                                        <li><a href="#contact">Contact</a></li>
+                                                        <li><a href="#about">About</a></li>
+                                                        <li><a href="#contact">Contact</a></li>
+                                                        <li><a href="#about">About</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <button type="button" class="my-btn btn btn-primary mt-3"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                                    <i class="fa-brands fa-apple"></i> Pay me
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal end -->
+                </div>
+                <div class="col-10 mt-3">
+                    <div class="content px-5 py-4 bg-info">
+                        <h1 class="text-center pb-3">
+                            Header
+                        </h1>
+
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolorem reprehenderit natus, hic fuga,
+                            minus officia adipisci quibusdam architecto nemo sapiente
+                            voluptas? Ut, repellendus, recusandae
+                            voluptates harum eveniet reprehenderit magni, numquam modi iusto
+                            fugiat quia qui natus laborum.
+                            Error in magnam, molestias necessitatibus nulla dicta corporis
+                            veniam impedit unde odit? Magnam
+                            quae repellat impedit minus. Aut, obcaecati tempora. Eveniet
+                            explicabo id fuga, soluta incidunt
+                            ex magnam iusto autem minus saepe suscipit in officiis, quisquam
+                            omnis amet debitis laudantium,
+                            assumenda consequuntur doloribus? Vero accusantium eveniet
+                            consequuntur natus maiores laboriosam
+                            necessitatibus officiis in ipsam perspiciatis incidunt quae
+                            dolor autem rem facere possimus
+                            inventore perferendis omnis illum quod, reprehenderit optio quas
+                            nobis. Placeat ipsa aspernatur
+                            saepe rerum et sint suscipit inventore, quis enim molestiae
+                            praesentium voluptatem reiciendis
+                            pariatur, ipsum fugiat ipsam perspiciatis iure quod. Eligendi
+                            consectetur tempore minima ratione
+                            excepturi. Omnis qui, illo modi praesentium hic recusandae
+                            consequuntur magni distinctio
+                            corrupti pariatur inventore officia quasi iste culpa, quam
+                            dicta? Accusamus consequuntur
+                            officiis praesentium aliquid possimus quod voluptatem! Libero
+                            enim, quia, vero esse ut iure
+                            facilis fuga totam omnis voluptas laborum dignissimos rem at
+                            molestias amet tempore praesentium
+                            ullam deleniti optio quasi, nesciunt tenetur beatae earum quis?
+                            Dolore aspernatur ab eveniet
+                            dolorem. Reiciendis, tenetur similique?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1 d-flex justify-content-end">
+                    <button type="button" class="my-btn btn btn-primary mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2">
+                        <i class="fa-brands fa-apple"></i> Pay me
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content" style="background-color: #f38181;">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="fa-brands fa-apple"></i> Apple Pay</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form w-100 mt-3">
+                                        <input type="email" name="email" autocomplete="off" required />
+                                        <label for="email" class="label-name">
+                                            <span class="content-name">
+                                                <i class="fa-solid fa-envelope"></i> Your Email
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="form w-100 my-3">
+                                        <input type="text" name="username" autocomplete="off" required />
+                                        <label for="username" class="label-name">
+                                            <span class="content-name">
+                                                <i class="fa-regular fa-user"></i> Your Username
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal end -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
